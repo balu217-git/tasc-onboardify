@@ -1,9 +1,78 @@
+@font-face {
+    font-family: 'gothammedium';
+    src: url('./fonts/gothammedium_1-webfont.woff2') format('woff2'),
+         url('./fonts/gothammedium_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham_medium';
+    src: url('./fonts/gothammediumitalic-webfont.woff2') format('woff2'),
+         url('./fonts/gothammediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothamthin';
+    src: url('./fonts/gotham-thin-webfont.woff2') format('woff2'),
+         url('./fonts/gotham-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothamthinitalic';
+    src: url('./fonts/gotham-thinitalic-webfont.woff2') format('woff2'),
+         url('./fonts/gotham-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamultraitalic';
+    src: url('./fonts/gotham-ultraitalic-webfont.woff2') format('woff2'),
+         url('./fonts/gotham-ultraitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamxlight';
+    src: url('./fonts/gotham-xlight-webfont.woff2') format('woff2'),
+         url('./fonts/gotham-xlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamxlightitalic';
+    src: url('./fonts/gotham-xlightitalic-webfont.woff2') format('woff2'),
+         url('./fonts/gotham-xlightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothamxnarrow_bold';
+    src: url('./fonts/gothamxnarrow-bold-webfont.woff2') format('woff2'),
+         url('./fonts/gothamxnarrow-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothambold';
+    src: url('./fonts/gothambold-webfont.woff') format('woff'),
+         url('./fonts/gotham-bold-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .text-brand{
     color: #2A70E6 !important;
+    font-family: 'gothambold';
 }
 .text-brand-dark{
     color: #0045BA !important;
+    font-family: 'gothambold';
 }
 
 /* Hero */
