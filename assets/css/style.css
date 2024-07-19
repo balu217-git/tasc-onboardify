@@ -88,3 +88,10 @@ body{
 .info{
     padding: 50px 0;
 }
+
+.info-bg-dark{
+    background-color: #0045BA !important;
+}
+.info-bg-light{
+    background-color: #497ED8 !important;
+}
