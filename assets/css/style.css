@@ -1,78 +1,82 @@
 @font-face {
-    font-family: 'gothammedium';
-    src: url('./fonts/gothammedium_1-webfont.woff2') format('woff2'),
-         url('./fonts/gothammedium_1-webfont.woff') format('woff');
+    font-family: 'Gotham Ultra';
+    src: url('./fonts/Gotham-Ultra.eot');
+    src: url('./fonts/Gotham-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gotham-Ultra.woff2') format('woff2'),
+        url('./fonts/Gotham-Ultra.woff') format('woff'),
+        url('./fonts/Gotham-Ultra.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-@font-face {
-    font-family: 'gotham_medium';
-    src: url('./fonts/gothammediumitalic-webfont.woff2') format('woff2'),
-         url('./fonts/gothammediumitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'gothamthin';
-    src: url('./fonts/gotham-thin-webfont.woff2') format('woff2'),
-         url('./fonts/gotham-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'gothamthinitalic';
-    src: url('./fonts/gotham-thinitalic-webfont.woff2') format('woff2'),
-         url('./fonts/gotham-thinitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'gothamultraitalic';
-    src: url('./fonts/gotham-ultraitalic-webfont.woff2') format('woff2'),
-         url('./fonts/gotham-ultraitalic-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Gotham Light';
+    src: url('./fonts/Gotham-Light.eot');
+    src: url('./fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gotham-Light.woff2') format('woff2'),
+        url('./fonts/Gotham-Light.woff') format('woff'),
+        url('./fonts/Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'gothamxlight';
-    src: url('./fonts/gotham-xlight-webfont.woff2') format('woff2'),
-         url('./fonts/gotham-xlight-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Gotham Thin';
+    src: url('./fonts/Gotham-Thin.eot');
+    src: url('./fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gotham-Thin.woff2') format('woff2'),
+        url('Gotham-Thin.woff') format('woff'),
+        url('./fonts/Gotham-Thin.ttf') format('truetype');
+    font-weight: 100;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'gothamxlightitalic';
-    src: url('./fonts/gotham-xlightitalic-webfont.woff2') format('woff2'),
-         url('./fonts/gotham-xlightitalic-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Gotham Black';
+    src: url('./fonts/Gotham-Black.eot');
+    src: url('./fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gotham-Black.woff2') format('woff2'),
+        url('./fonts/Gotham-Black.woff') format('woff'),
+        url('./fonts/Gotham-Black.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-    font-family: 'gothamxnarrow_bold';
-    src: url('./fonts/gothamxnarrow-bold-webfont.woff2') format('woff2'),
-         url('./fonts/gothamxnarrow-bold-webfont.woff') format('woff');
+    font-family: 'Gotham Book';
+    src: url('./fonts/Gotham-Book.eot');
+    src: url('./fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gotham-Book.woff2') format('woff2'),
+        url('./fonts/Gotham-Book.woff') format('woff'),
+        url('./fonts/Gotham-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-@font-face {
-    font-family: 'gothambold';
-    src: url('./fonts/gothambold-webfont.woff') format('woff'),
-         url('./fonts/gotham-bold-webfont.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-display: swap;
 }
 
 
+body{
+    font-family: 'Gotham Book';
+}
 .text-brand{
     color: #2A70E6 !important;
-    font-family: 'gothambold';
 }
 .text-brand-dark{
     color: #0045BA !important;
-    font-family: 'gothambold';
+}
+.info-fw-bold{
+    font-family: 'Gotham Black';
+    font-weight: 700;
+}
+
+/* Navbar */
+
+.navbar-nav li:not(:last-child){
+    margin-right: 20px;
 }
 
 /* Hero */
