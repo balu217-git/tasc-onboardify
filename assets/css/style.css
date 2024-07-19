@@ -80,15 +80,37 @@ body{
 
 /* Hero */
 .hero{
+    position: relative;
     padding: 50px 0;
+    z-index: 0;
 }
-
+.bg-hero-element{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: -100%;
+    z-index: -1;
+}
 
 /* Info */
 .info{
     padding: 50px 0;
 }
-
+.bg-hero-element-01{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: -1;
+}
+.bg-hero-element-02{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: -50%;
+    z-index: -1;
+}
 .info-bg-dark{
     background-color: #0045BA !important;
 }
