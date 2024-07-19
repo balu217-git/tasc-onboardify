@@ -5,3 +5,14 @@
 .text-brand-dark{
     color: #0045BA !important;
 }
+
+/* Hero */
+.hero{
+    padding: 50px 0;
+}
+
+
+/* Info */
+.info{
+    padding: 50px 0;
+}
