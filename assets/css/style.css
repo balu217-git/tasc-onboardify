@@ -117,3 +117,8 @@ body{
 .info-bg-light{
     background-color: #497ED8 !important;
 }
+
+.hero-content .demo-btn{
+    background-color: #497ED8;
+    border: 1px solid #497ED8;
+}
