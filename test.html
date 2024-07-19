@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping Text Slide Up and Replace</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #text {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="text">This is the first text.</div>
+
+    <script>
+        $(document).ready(function(){
+            const messages = [
+                "This is the first text.",
+                "This is the second text.",
+                "This is the third text.",
+                "This is the fourth text."
+            ];
+
+            let currentIndex = 0;
+            setInterval(function(){
+                $('#text').slideUp(1000, function(){
+                    currentIndex = (currentIndex + 1) % messages.length;
+                    $('#text').text(messages[currentIndex]).slideDown(1000);
+                });
+            }, 4000); // Change text every 4 seconds
+        });
+    </script>
+</body>
+</html>
