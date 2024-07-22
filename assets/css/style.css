@@ -103,6 +103,9 @@ body{
 .navbar-nav li:not(:last-child){
     margin-right: 20px;
 }
+.nav-reverse{
+    direction: ltr !important;
+}
 
 /* Hero */
 .hero{
