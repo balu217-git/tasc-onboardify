@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Effortless Employee Onboarding with Onboardify</title>
-    <meta name="description"
-        content="Discover Onboardify, the ultimate solution for efficient employee onboarding in Saudi Arabia. Create onboarding requests effortlessly, track progress in real-time, and gain comprehensive insights with our user-friendly platform. Transform your onboarding process today!" />
+    <meta name="description" content="Discover Onboardify, the ultimate solution for efficient employee onboarding in Saudi Arabia. Create onboarding requests effortlessly, track progress in real-time, and gain comprehensive insights with our user-friendly platform. Transform your onboarding process today!" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css?ver=1.1' type='text/css' media='all' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
-    <link rel='stylesheet' id='font-awesome-css-css'
-        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css?ver=1.1' type='text/css'
-        media='all' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.0/slick.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -63,8 +60,11 @@
                             <p class="hero-sub-text text-brand-thick">Experience the future of onboarding with seamless
                                 processes, real-time tracking, and unparalleled efficiency.</p>
 
-                            <a href="https://calendly.com/tascoutsourcing/30min" target="_blank" class="btn btn-primary demo-btn px-3 py-2 rounded-3">Book A Demo</a>&emsp;
-                            <a href="#" class="btn btn-outline-primary px-3 py-2 rounded-3">Sign Up</a>
+                            <div class="d-grid gap-md-2 col-lg-6 d-md-block">
+                                <a href="https://calendly.com/tascoutsourcing/30min" target="_blank" class="btn btn-primary demo-btn px-3 py-2 rounded-3">Book A Demo</a>&emsp;
+                                <a href="#" class="btn btn-outline-primary px-3 py-2 rounded-3">Sign Up</a>
+                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg">
@@ -108,63 +108,76 @@
         <hr class="devider">
         <section class="info" id="Features">
             <div class="container">
-                <div class="info-heading text-center mb-5">
+
+                <div class="info-heading text-center mb-md-5 mb-3">
                     <h2 class="fs-1">Key Features of <span class="text-brand-dark info-fw-bold">Onboardify</span></h2>
                     <p class="info-heading-sub">Streamline your onboarding process with cutting-edge technology and
                         user-friendly interfaces.</p>
                 </div>
 
-                <div class="row g-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
-                            <img class="img-fluid" width="75" src="./assets/img/img-features-icon-01.png" alt="">
+                <div class="row g-md-5 row-cols-1 row-cols-md-2 row-cols-lg-3 info-features-mobile-slider">
+                    <div class="col">
+                        <div class="feature">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
+                                <img class="img-fluid" width="75" src="./assets/img/img-features-icon-01.png" alt="">
+                            </div>
+                            <h3 class="fs-4 info-fw-bold text-body-emphasis">Automated Workflow</h3>
+                            <p>Effortlessly manage onboarding employees with our automated workflows that minimize manual
+                                intervention and reduce errors.</p>
                         </div>
-                        <h3 class="fs-4 info-fw-bold text-body-emphasis">Automated Workflow</h3>
-                        <p>Effortlessly manage onboarding employees with our automated workflows that minimize manual
-                            intervention and reduce errors.</p>
 
                     </div>
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
-                            <img class="img-fluid" width="75" src="./assets/img/img-features-icon-02.png" alt="">
+                    <div class="col">
+                        <div class="feature">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
+                                <img class="img-fluid" width="75" src="./assets/img/img-features-icon-02.png" alt="">
+                            </div>
+                            <h3 class="fs-4 info-fw-bold text-body-emphasis">Real-Time Tracking</h3>
+                            <p>Monitor the progress of onboarding requests in real time, ensuring transparency and timely
+                                completions.</p>
                         </div>
-                        <h3 class="fs-4 info-fw-bold text-body-emphasis">Real-Time Tracking</h3>
-                        <p>Monitor the progress of onboarding requests in real time, ensuring transparency and timely
-                            completions.</p>
 
                     </div>
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
+                    <div class="col">
+                        <div class="feature">
+<div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
                             <img class="img-fluid" width="75" src="./assets/img/img-features-icon-03.png" alt="">
                         </div>
                         <h3 class="fs-4 info-fw-bold text-body-emphasis">User Friendly Interface</h3>
                         <p>Our intuitive interface is designed to provide an exceptional user experience for your HR and
                             top management teams.</p>
+                        </div>
 
                     </div>
-                    <div class="feature col">
+                    <div class="col">
+                       <div class="feature">
                         <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
                             <img class="img-fluid" width="75" src="./assets/img/img-features-icon-04.png" alt="">
                         </div>
                         <h3 class="fs-4 info-fw-bold text-body-emphasis">Customisable Templates</h3>
                         <p>Tailor the onboarding process to fit your company s specific needs with customizable
                             templates.</p>
+                       </div>
 
                     </div>
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
-                            <img class="img-fluid" width="75" src="./assets/img/img-features-icon-05.png" alt="">
+                    <div class="col">
+                       <div class="feature">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
+                                <img class="img-fluid" width="75" src="./assets/img/img-features-icon-05.png" alt="">
+                            </div>
+                            <h3 class="fs-4 info-fw-bold text-body-emphasis">Compliance Management</h3>
+                            <p>Ensure all onboarding processes comply with local regulations and company policies
+                                effortlessly.</p>
+                       </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="feature feature-light text-center">
+                            <div>
+                                <img class="img-fluid d-block mx-auto" width="75" src="./assets/img/img-features-icon-06.gif" alt=""><br>
+                                <a href="" class="btn btn-info text-white">Request Onboarding</a>
+                            </div>
                         </div>
-                        <h3 class="fs-4 info-fw-bold text-body-emphasis">Compliance Management</h3>
-                        <p>Ensure all onboarding processes comply with local regulations and company policies
-                            effortlessly.</p>
-
-                    </div>
-                    <div class="feature col text-center align-self-center">
-                        <img class="img-fluid" width="75" src="./assets/img/img-features-icon-06.gif" alt="">
-                        <br>
-                        <a href="" class="btn btn-info text-white">Request Onboarding
-                        </a>
                     </div>
                 </div>
             </div>
@@ -216,45 +229,49 @@
                         </div>
                     </div>
                 </div>
-                <div class="row g-5 py-5 row-cols-1 row-cols-md-2 row-cols-lg-2">
-                    <div class="col d-flex align-items-start">
-                        <div
-                            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                            <img class="img-fluid" width="75" src="./assets/img/img-choose-icon-01.png" alt="">
-                        </div>
-                        <div>
-                            <h3 class="fs-5 info-fw-bold text-body-emphasis">Improved Onboarding Efficiency</h3>
-                            <p>Speed up the onboarding process and reduce administrative workload.</p>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-start">
-                        <div
-                            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                            <img class="img-fluid" width="75" src="./assets/img/img-choose-icon-02.png" alt="">
-                        </div>
-                        <div>
-                            <h3 class="fs-5 info-fw-bold text-body-emphasis">Enhanced Employee Experience</h3>
-                            <p>Provide a smooth and welcoming onboarding experience for new hires.</p>
+                <div class="row g-md-5 mt-md-5 mt-4 row-cols-1 row-cols-md-2 row-cols-lg-2 info-benefits-mobile-slider">
+                    <div class="col">
+                        <div class="benefit d-flex align-items-start">
+                            <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <img class="img-fluid" width="75" src="./assets/img/img-choose-icon-01.png" alt="">
+                            </div>
+                            <div>
+                                <h3 class="fs-5 info-fw-bold text-body-emphasis">Improved Onboarding Efficiency</h3>
+                                <p>Speed up the onboarding process and reduce administrative workload.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col d-flex align-items-start">
-                        <div
-                            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                            <img class="img-fluid" width="75" src="./assets/img/img-choose-icon-03.png" alt="">
-                        </div>
-                        <div>
-                            <h3 class="fs-5 info-fw-bold text-body-emphasis">Reduced Errors</h3>
-                            <p>Minimize mistakes with automated and standardized employee onboarding workflows.</p>
+                    <div class="col">
+                        <div class="benefit d-flex align-items-start">
+                            <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <img class="img-fluid" width="75" src="./assets/img/img-choose-icon-02.png" alt="">
+                            </div>
+                            <div>
+                                <h3 class="fs-5 info-fw-bold text-body-emphasis">Enhanced Employee Experience</h3>
+                                <p>Provide a smooth and welcoming onboarding experience for new hires.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col d-flex align-items-start">
-                        <div
-                            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                            <img class="img-fluid" width="75" src="./assets/img/img-choose-icon-04.png" alt="">
-                        </div>
-                        <div>
-                            <h3 class="fs-5 info-fw-bold text-body-emphasis">Cost Savings</h3>
-                            <p>Save on operational costs by streamlining and automating the onboarding process.</p>
+                    <div class="col">
+                       <div class="benefit d-flex align-items-start">
+                            <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <img class="img-fluid" width="75" src="./assets/img/img-choose-icon-03.png" alt="">
+                            </div>
+                            <div>
+                                <h3 class="fs-5 info-fw-bold text-body-emphasis">Reduced Errors</h3>
+                                <p>Minimize mistakes with automated and standardized employee onboarding workflows.</p>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col">
+                        <div class="benefit d-flex align-items-start">
+                            <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <img class="img-fluid" width="75" src="./assets/img/img-choose-icon-04.png" alt="">
+                            </div>
+                            <div>
+                                <h3 class="fs-5 info-fw-bold text-body-emphasis">Cost Savings</h3>
+                                <p>Save on operational costs by streamlining and automating the onboarding process.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -338,7 +355,7 @@
                             onboarding process with Onboardify.</p>
                     </div>
                 </div>
-                <div class="row justify-content-center g-5">
+                <div class="row justify-content-center g-5 info-testimonials-mobile-slider">
                     <div class="col-lg-6 col-12">
                         <div class="info-card bg-white rounded-4">
                             <div class="info-card-content">
@@ -396,14 +413,17 @@
                     </div>
                 </div>
 
-                <div class="row g-0 align-items-center justify-content-center mt-5">
+                <div class="row g-0 align-items-center justify-content-center mt-md-5 mt-3">
                     <div class="col-md-9">
                         <div class="info-card-content-bg info-bg-dark rounded-5 px-3 py-5">
                             <div class="info-heading text-center text-white">
                                 <h2 class="info-fw-bold fs-1">Onboard your employees <br>in a Couple of Clicks</h2>
                                 <p class="info-heading-sub mb-4">Try all the features of Onboardify Now!</p>
-                                <a href="https://calendly.com/tascoutsourcing/30min" target="_blank" class="btn btn-light px-3">Book a Demo</a>
-                                <a href="#" class="btn btn-outline-light px-3"><span><i class="fa-regular fa-circle-play"></i></span> How it Works</a>
+                                <div class="d-grid gap-2 col-lg-6 mx-auto d-md-block">
+                                    <a href="https://calendly.com/tascoutsourcing/30min" target="_blank" class="btn btn-light px-3">Book a Demo</a>
+                                    <a href="#" class="btn btn-outline-light px-3"><span><i class="fa-regular fa-circle-play"></i></span> How it Works</a>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -435,7 +455,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-0 align-items-center justify-content-between">
+            <div class="row g-0 align-items-center justify-content-between mt-md-0 mt-3">
                 <div class="col">
                     <div class="info-content text-white ">
                         <img class="img-fluid" width="200" src="./assets/img/img-onnoardify-white.png" alt="">
@@ -450,6 +470,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.0/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
